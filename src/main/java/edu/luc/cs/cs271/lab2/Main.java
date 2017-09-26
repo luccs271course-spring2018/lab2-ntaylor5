@@ -65,8 +65,8 @@ public class Main {
     // Checks the index
     if (index.isPresent()) {
       System.out.println("Found!");
-      final int pos = index.get();
-      final Team team = list.get(pos);
+     final int pos = index.get();
+     final Team team = list.get(pos);
       // TODO DRY - eliminate this code duplication
       System.out.println("Name: " + team.getName());
       System.out.println("Head coach: " + team.getHeadcoach());
@@ -78,3 +78,5 @@ public class Main {
     }
   }
 }
+// Write some code that either checks the list or the array based on some 
+// criteria that will weed out either of these two 
